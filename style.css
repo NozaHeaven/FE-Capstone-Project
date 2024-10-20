@@ -29,7 +29,7 @@ header{
     padding:0.5rem 1rem;
     border-radius: 50px;
     font-size: 1rem;
-    color:#fff;
+    color:#866b6b;
     font-family: inherit;
 }
 
@@ -39,7 +39,7 @@ header{
 }
 
 .search::placeholder{
-    color: #61626b;
+    color: #c3c5d1;
 }
 
 main{
@@ -84,11 +84,11 @@ main{
 }
 
 .movie-info span.green{
-    color:lightgreen;
+    color:rgb(255, 255, 255);
 }
 
 .movie-info span.orange{
-    color:rgb(14, 165, 127);
+    color:rgb(255, 255, 255);
 }
 
 .movie-info span.red{
@@ -131,7 +131,7 @@ main{
 }
 
 .tag.highlight{
-    background-color: rgb(231, 110, 110);
+    background-color: rgb(36, 132, 211);
 }
 .no-results{
     color:white;
