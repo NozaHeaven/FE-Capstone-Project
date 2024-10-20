@@ -1,7 +1,7 @@
 # FE-Capstone-Project
 Movie Database - Final FE Capstone Project 2024
 Project Overview
-The Movie Database is a web application that allows users to search for movies, view detailed information, and manage their favorite films. The application utilizes the OMDB API to fetch movie data dynamically. This project demonstrates proficiency in frontend development using only HTML, CSS, and JavaScript.
+The Movie Database is a web application that allows users to search for movies, view detailed information, and manage their favorite films. The application utilizes the TMDB API to fetch movie data dynamically. This project demonstrates proficiency in frontend development using only HTML, CSS, and JavaScript.
 
 Features
 Movie Search: Users can search for movies by title.

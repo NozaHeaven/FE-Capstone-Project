@@ -5,8 +5,8 @@
 }
 
 :root{
-    --primary-color:#22254b;
-    --secondary-color: #373b69;
+    --primary-color:#364492;
+    --secondary-color: #1c88c7;
 }
 
 body{
@@ -39,7 +39,7 @@ header{
 }
 
 .search::placeholder{
-    color: #7378c5;
+    color: #61626b;
 }
 
 main{
@@ -52,7 +52,7 @@ main{
     width: 300px;
     margin: 1rem;
     border-radius: 3px;
-    box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
+    box-shadow: 0.2px 4px 5px rgba(36, 35, 35, 0.1);
     background-color: var(--secondary-color);
     position:relative;
     overflow: hidden;
@@ -64,7 +64,7 @@ main{
 }
 
 .movie-info{
-    color:#eee;
+    color:#92b7ee;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -88,11 +88,11 @@ main{
 }
 
 .movie-info span.orange{
-    color:orange;
+    color:rgb(14, 165, 127);
 }
 
 .movie-info span.red{
-    color:red;
+    color:rgb(224, 98, 98);
 }
 
 .overview{
@@ -123,7 +123,7 @@ main{
 .tag{
     color:white;
     padding:10px 20px;
-    background-color: orange;
+    background-color: rgb(212, 180, 119);
     border-radius: 50px;
     margin:5px;
     display:inline-block;
@@ -131,7 +131,7 @@ main{
 }
 
 .tag.highlight{
-    background-color: red;
+    background-color: rgb(231, 110, 110);
 }
 .no-results{
     color:white;
@@ -158,13 +158,13 @@ main{
 .current{
     padding: 10px 20px;
     border-radius: 50%;
-    border: 5px solid orange;
+    border: 5px solid rgb(96, 235, 188);
     font-size: 20px;
     font-weight: 600;
 }
 
 .know-more{
-    background-color: orange;
+    background-color: rgb(154, 187, 161);
     color:white;
     font-size: 16px;
     font-weight: bold;
@@ -272,5 +272,5 @@ main{
 }
 
 .dots .dot.active{
-    border-color: orange;
+    border-color: rgb(105, 212, 119);
 }
